@@ -1,4 +1,4 @@
-FROM yiisoftware/yii2-php:7.4-apache
+FROM yiisoftware/yii2-php:8.1-apache
 
 # Note: Using SQLite for the stand-alone Docker image, the docker-compose configuration defaults to MySQL.
 ENV YII_DB_DRIVER=SQLite
